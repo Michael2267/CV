@@ -1,0 +1,56 @@
+img {
+    width: 500px;
+    height: 750px;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7)
+}
+
+.container .card-one {
+    
+}
+
+h1 {
+    color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.kotak {
+    padding: 100px;
+    width: 100px;
+    color: gray;
+    margin: 10px;
+    background: orange;
+}
+
+.lebar{
+    width: 50px;
+    background-color: darkmagenta;
+}
+
+#kotak {
+    width: 400px;
+    color:azure;
+    background: peachpuff;
+    padding: 50px;
+}
